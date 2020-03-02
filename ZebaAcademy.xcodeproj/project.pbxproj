@@ -3,27 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F711084A240D17E2002E0FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7110849240D17E2002E0FCD /* AppDelegate.swift */; };
-		F711084C240D17E2002E0FCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F711084B240D17E2002E0FCD /* SceneDelegate.swift */; };
-		F711084E240D17E2002E0FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F711084D240D17E2002E0FCD /* ViewController.swift */; };
-		F7110851240D17E2002E0FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F711084F240D17E2002E0FCD /* Main.storyboard */; };
+		09F568981D0349ECEA992ABE /* Pods_ZebaAcademy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19ED5F21381075AFFE883F1 /* Pods_ZebaAcademy.framework */; };
 		F7110853240D17E8002E0FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7110852240D17E8002E0FCD /* Assets.xcassets */; };
-		F7110856240D17E8002E0FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7110854240D17E8002E0FCD /* LaunchScreen.storyboard */; };
+		F711085E240D1BF8002E0FCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F711085D240D1BF8002E0FCD /* GoogleService-Info.plist */; };
+		F711086C240D1D45002E0FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7110860240D1D43002E0FCD /* LaunchScreen.storyboard */; };
+		F711086D240D1D45002E0FCD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F7110861240D1D44002E0FCD /* .gitignore */; };
+		F711086E240D1D45002E0FCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7110862240D1D44002E0FCD /* SceneDelegate.swift */; };
+		F711086F240D1D45002E0FCD /* CalendarVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7110863240D1D44002E0FCD /* CalendarVars.swift */; };
+		F7110870240D1D45002E0FCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7110864240D1D44002E0FCD /* AppDelegate.swift */; };
+		F7110871240D1D45002E0FCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7110866240D1D45002E0FCD /* ViewController.swift */; };
+		F7110872240D1D45002E0FCD /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7110867240D1D45002E0FCD /* EventsViewController.swift */; };
+		F7110873240D1D45002E0FCD /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7110868240D1D45002E0FCD /* LoginController.swift */; };
+		F7110874240D1D45002E0FCD /* EventsAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7110869240D1D45002E0FCD /* EventsAddViewController.swift */; };
+		F7110875240D1D45002E0FCD /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F711086A240D1D45002E0FCD /* DateCollectionViewCell.swift */; };
+		F7110876240D1D45002E0FCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F711086B240D1D45002E0FCD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB6279CDF3AC1437426CABB9 /* Pods-ZebaAcademy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebaAcademy.release.xcconfig"; path = "Target Support Files/Pods-ZebaAcademy/Pods-ZebaAcademy.release.xcconfig"; sourceTree = "<group>"; };
+		BBCCC93E95CF655852631B2B /* Pods-ZebaAcademy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZebaAcademy.debug.xcconfig"; path = "Target Support Files/Pods-ZebaAcademy/Pods-ZebaAcademy.debug.xcconfig"; sourceTree = "<group>"; };
+		F19ED5F21381075AFFE883F1 /* Pods_ZebaAcademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZebaAcademy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7110846240D17E2002E0FCD /* ZebaAcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZebaAcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7110849240D17E2002E0FCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F711084B240D17E2002E0FCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F711084D240D17E2002E0FCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7110850240D17E2002E0FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7110852240D17E8002E0FCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7110855240D17E8002E0FCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7110857240D17E8002E0FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F711085D240D1BF8002E0FCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F711085F240D1D43002E0FCD /* ZebaAcademy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZebaAcademy-Bridging-Header.h"; sourceTree = "<group>"; };
+		F7110860240D1D43002E0FCD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7110861240D1D44002E0FCD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F7110862240D1D44002E0FCD /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F7110863240D1D44002E0FCD /* CalendarVars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVars.swift; sourceTree = "<group>"; };
+		F7110864240D1D44002E0FCD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7110866240D1D45002E0FCD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7110867240D1D45002E0FCD /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		F7110868240D1D45002E0FCD /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F7110869240D1D45002E0FCD /* EventsAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsAddViewController.swift; sourceTree = "<group>"; };
+		F711086A240D1D45002E0FCD /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		F711086B240D1D45002E0FCD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +50,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F568981D0349ECEA992ABE /* Pods_ZebaAcademy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4AFB962AD8D943EBC6FF134 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBCCC93E95CF655852631B2B /* Pods-ZebaAcademy.debug.xcconfig */,
+				BB6279CDF3AC1437426CABB9 /* Pods-ZebaAcademy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D191C1187DC6B0334B2A356F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F19ED5F21381075AFFE883F1 /* Pods_ZebaAcademy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F711083D240D17E2002E0FCD = {
 			isa = PBXGroup;
 			children = (
 				F7110848240D17E2002E0FCD /* ZebaAcademy */,
 				F7110847240D17E2002E0FCD /* Products */,
+				B4AFB962AD8D943EBC6FF134 /* Pods */,
+				D191C1187DC6B0334B2A356F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +95,31 @@
 		F7110848240D17E2002E0FCD /* ZebaAcademy */ = {
 			isa = PBXGroup;
 			children = (
-				F7110849240D17E2002E0FCD /* AppDelegate.swift */,
-				F711084B240D17E2002E0FCD /* SceneDelegate.swift */,
-				F711084D240D17E2002E0FCD /* ViewController.swift */,
-				F711084F240D17E2002E0FCD /* Main.storyboard */,
+				F7110865240D1D45002E0FCD /* Controllers */,
+				F7110861240D1D44002E0FCD /* .gitignore */,
+				F7110864240D1D44002E0FCD /* AppDelegate.swift */,
+				F7110863240D1D44002E0FCD /* CalendarVars.swift */,
+				F711086A240D1D45002E0FCD /* DateCollectionViewCell.swift */,
+				F711086B240D1D45002E0FCD /* Main.storyboard */,
+				F7110860240D1D43002E0FCD /* LaunchScreen.storyboard */,
+				F7110862240D1D44002E0FCD /* SceneDelegate.swift */,
+				F711085D240D1BF8002E0FCD /* GoogleService-Info.plist */,
 				F7110852240D17E8002E0FCD /* Assets.xcassets */,
-				F7110854240D17E8002E0FCD /* LaunchScreen.storyboard */,
 				F7110857240D17E8002E0FCD /* Info.plist */,
+				F711085F240D1D43002E0FCD /* ZebaAcademy-Bridging-Header.h */,
 			);
 			path = ZebaAcademy;
+			sourceTree = "<group>";
+		};
+		F7110865240D1D45002E0FCD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7110866240D1D45002E0FCD /* ViewController.swift */,
+				F7110867240D1D45002E0FCD /* EventsViewController.swift */,
+				F7110868240D1D45002E0FCD /* LoginController.swift */,
+				F7110869240D1D45002E0FCD /* EventsAddViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F711085A240D17E8002E0FCD /* Build configuration list for PBXNativeTarget "ZebaAcademy" */;
 			buildPhases = (
+				391ADBCC4E53DC45EB19DD01 /* [CP] Check Pods Manifest.lock */,
 				F7110842240D17E2002E0FCD /* Sources */,
 				F7110843240D17E2002E0FCD /* Frameworks */,
 				F7110844240D17E2002E0FCD /* Resources */,
+				E1B276B15C52783293C05B20 /* [CP] Embed Pods Frameworks */,
+				370A74DF0FE2CDDF5E967A82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +157,7 @@
 				TargetAttributes = {
 					F7110845240D17E2002E0FCD = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -125,45 +184,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7110856240D17E8002E0FCD /* LaunchScreen.storyboard in Resources */,
+				F711086D240D1D45002E0FCD /* .gitignore in Resources */,
+				F7110876240D1D45002E0FCD /* Main.storyboard in Resources */,
+				F711086C240D1D45002E0FCD /* LaunchScreen.storyboard in Resources */,
+				F711085E240D1BF8002E0FCD /* GoogleService-Info.plist in Resources */,
 				F7110853240D17E8002E0FCD /* Assets.xcassets in Resources */,
-				F7110851240D17E2002E0FCD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		370A74DF0FE2CDDF5E967A82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZebaAcademy/Pods-ZebaAcademy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZebaAcademy/Pods-ZebaAcademy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZebaAcademy/Pods-ZebaAcademy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		391ADBCC4E53DC45EB19DD01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZebaAcademy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1B276B15C52783293C05B20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZebaAcademy/Pods-ZebaAcademy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZebaAcademy/Pods-ZebaAcademy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZebaAcademy/Pods-ZebaAcademy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F7110842240D17E2002E0FCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F711084E240D17E2002E0FCD /* ViewController.swift in Sources */,
-				F711084A240D17E2002E0FCD /* AppDelegate.swift in Sources */,
-				F711084C240D17E2002E0FCD /* SceneDelegate.swift in Sources */,
+				F7110870240D1D45002E0FCD /* AppDelegate.swift in Sources */,
+				F7110873240D1D45002E0FCD /* LoginController.swift in Sources */,
+				F711086E240D1D45002E0FCD /* SceneDelegate.swift in Sources */,
+				F7110871240D1D45002E0FCD /* ViewController.swift in Sources */,
+				F7110875240D1D45002E0FCD /* DateCollectionViewCell.swift in Sources */,
+				F7110874240D1D45002E0FCD /* EventsAddViewController.swift in Sources */,
+				F711086F240D1D45002E0FCD /* CalendarVars.swift in Sources */,
+				F7110872240D1D45002E0FCD /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F711084F240D17E2002E0FCD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7110850240D17E2002E0FCD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F7110854240D17E8002E0FCD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7110855240D17E8002E0FCD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F7110858240D17E8002E0FCD /* Debug */ = {
@@ -282,8 +388,10 @@
 		};
 		F711085B240D17E8002E0FCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBCCC93E95CF655852631B2B /* Pods-ZebaAcademy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TU29VDT7MM;
 				INFOPLIST_FILE = ZebaAcademy/Info.plist;
@@ -293,6 +401,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = come.test262a.ZebaAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZebaAcademy/ZebaAcademy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,8 +410,10 @@
 		};
 		F711085C240D17E8002E0FCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6279CDF3AC1437426CABB9 /* Pods-ZebaAcademy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TU29VDT7MM;
 				INFOPLIST_FILE = ZebaAcademy/Info.plist;
@@ -311,6 +423,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = come.test262a.ZebaAcademy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZebaAcademy/ZebaAcademy-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

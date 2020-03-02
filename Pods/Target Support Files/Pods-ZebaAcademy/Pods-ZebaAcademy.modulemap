@@ -1,0 +1,6 @@
+framework module Pods_ZebaAcademy {
+  umbrella header "Pods-ZebaAcademy-umbrella.h"
+
+  export *
+  module * { export * }
+}
